@@ -27,7 +27,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -712,18 +711,18 @@ h4 {
     background-color: #b54612;
 }
 .bg-lines-h2-bg {
-    background-image: url("agence-la-panthere.jpg");
+    background-image: url(imgAvif/lines-h2-bg.jpg);
 }
 .bg-banniere {
-    background-image: url("agence-la-panthere.jpg");
+    background-image: url(imgAvif/agence-la-panthere.jpg);
 }
 .bg-presentation {
-    background-image: url("agence-la-panthere.jpg");
+    background-image: url(imgAvif/image-de-presentation.jpg);
 }
 @media (max-width: 1024px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
