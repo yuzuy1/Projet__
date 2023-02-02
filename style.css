@@ -712,13 +712,13 @@ h4 {
     background-color: #b54612;
 }
 .bg-lines-h2-bg {
-    background-image: url(../imgAvif/font_point.jpg);
+    background-image: url("agence-la-panthere.jpg");
 }
 .bg-banniere {
-    background-image: url(../imgAvif/agence-la-panthere.jpg);
+    background-image: url("agence-la-panthere.jpg");
 }
 .bg-presentation {
-    background-image: url(../imgAvif/image_fond_2.jpg);
+    background-image: url("agence-la-panthere.jpg");
 }
 @media (max-width: 1024px) {
     .bloc {
