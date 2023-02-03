@@ -34,8 +34,8 @@ a:hover {
     position: relative;
 }
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .bloc-lg {
     padding: 100px 50px;
@@ -83,6 +83,7 @@ a:hover {
 .image-resize-mode {
     width: 28%;
     height: 28%;
+    border-radius: 40%;
 }
 .texture-paper::before {
     background-size: 280px 280px;
@@ -558,6 +559,8 @@ a[data-lightbox]:hover img {
 }
 .text-center {
     color: #000 !important;
+    width: 100%;
+    margin-left: 0px;
 }
 .snapshot-lb .lightbox-caption {
     padding: 0;
@@ -565,6 +568,8 @@ a[data-lightbox]:hover img {
     background: 0 0;
 }
 .col-sm-6 > p {
+
+    padding: 0rem 1rem 0rem 1rem;
     color: #000;
 }
 .btn,
@@ -674,6 +679,9 @@ h4 {
 .bgc-white {
     background-color: #fff;
 }
+#form1{
+    padding: 0rem 1rem 0rem 1rem;
+}
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
@@ -682,6 +690,8 @@ h4 {
 }
 .tc-white {
     color: #fff !important;
+
+    padding: 0rem 1rem 0rem 1rem;
 }
 .btn-atomic-tangerine {
     background: #b54612;
@@ -751,9 +761,6 @@ h4 {
     }
 }
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
     .b-parallax {
         background-attachment: scroll;
     }

@@ -103,7 +103,8 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+    width:100%
 }
 
 svg:not(:root) {
@@ -1427,7 +1428,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    width:100%
 }
 
 .carousel-inner>.item>a>img,
@@ -2085,7 +2087,9 @@ pre code {
 }
 
 .col-xs-12 {
-    width: 100%
+
+    margin-left: 16.66666667%;
+    width: 66.66666667%;
 }
 
 .col-xs-11 {
@@ -2304,7 +2308,8 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        margin-left: 16.66666667%;
+        width: 66.66666667%;
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -7682,7 +7687,6 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
@@ -7992,7 +7996,8 @@ button.close {
 
 @media (min-width:1200px) {
     .visible-lg-inline-block {
-        display: inline-block !important
+        display: inline-block !important;
+        border-radius: 40%
     }
 }
 
